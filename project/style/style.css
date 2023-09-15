@@ -95,3 +95,20 @@ body {
     font-weight: 700;
     line-height: 150%; /* 24px */
 }
+
+
+/* Блок с работами */
+
+.works{
+
+}
+
+.works-text{
+    color: #57463A;
+
+    font-family: Tenor Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    ine-height: 150%; /* 72px */
+}
