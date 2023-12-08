@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&display=swap');
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_background{
+    margin: 0 auto 0 auto;
+    background-color: #F3EFEA;
+    width: 1440px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    z-index: 0;
+}
+
+.TopHead{
+    width: 1440px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.top_text{
+    height: 21px;
+    width: 288px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top_image{
+    width: 86px;
+    height: 86px;
+    margin: auto;
+    padding: 0 101px;
+}
+
+.head_big_image{
+    width: 1440px;
+    height: 601px;
+    background: url("./images/masterImages/background1.svg") , linear-gradient(to top, black -15%, transparent 50%);
+}
+
+.center_header_block{
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+.string_2{
+    margin: 300px auto 0;
+    color: white;
+    font-size: 48px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 300;
+    width: max-content;
+}
+
+.center_header_button{
+    height: 60px;
+    width: 328px;
+    font-style: 20px #715B4B;
+    margin-top: 100px;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ourWorks{
+    width: 1210px;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourWorks .string_2{
+    margin: 200px 0 100px;
+}
+
+.ourWorks td{
+    width: 250px;
+    height: max-content;
+    display: inline-block;
+    margin: auto 15px;
+}
+
+.ourWorks td img{
+    width: inherit;
+    height: inherit;
+}
+
+.ourWorks tr{
+    width: inherit;
+    justify-content: space-between;
+}
+
+.ourWorks_block p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ourWorks_String{
+    width: 1210px;
+    height: 800px;
+    display: block;
+}
+
+.ourWorks .string_2{
+    color:  #715B4B;
+    text-align: left;
+}
+
+.showMore{
+    width: 328px;
+    height: 60px;
+    background-color: #A1B29F;
+    color: white;
+    margin: 50px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.MK{
+    height: 1000px;
+    width: 1210px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+
+.MK .string_2{
+    margin: 0;
+    color: #57463A;
+    width: max-content;
+}
+
+.MK_points{
+    height: max-content;
+    width: 400px;
+    margin: 100px auto;
+}
+
+.MK_points_block{
+    height: 60px;
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.MK_points_block p{
+    height: max-content;
+    margin: auto 50px;
+    text-align: left;
+}
+
+.cirle{
+    width: 60px;
+    height: 60px;
+    background-color: #A1B29F;
+    color: #F6F6F6;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.backgroundLine{
+    height: 500px;
+    width: 1px;
+    position: absolute;
+    background-color: #C4C4C4;
+    margin: 50px 30px;
+}
+
+.newLife{
+    width: 1440px;
+    height: 508px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.newLifeBackground{
+    width: 1440px;
+    height: 508px;
+    background-image: url("./images/masterImages/background2.svg");
+}
+
+.newLifeBackground .string_2{
+    margin: 0 auto;
+    height: inherit;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.restavration{
+    width: 1210px;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.restavration .string_2{
+    margin: 300px 0 0 0;
+    color: #715B4B;
+}
+
+.restavration_String{
+    width: 80%;
+    margin: 100px auto;
+    height: 600px;
+    display: flex;
+}
+
+.restavration_String tr{
+    height: 600px;
+}
+
+.restavration_String .string_2{
+    width: inherit;
+}
+
+.restavration_block{
+    width: 24%;
+    height: max-content;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 50px;
+}
+
+.restavration_String p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.woodBusy{
+    width: 1210px;
+    height: max-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.woodBusy .string_2{
+    color:  #715B4B;
+    text-align: left;
+    margin: 250px 0 0;
+}
+
+.woodBusy_String{
+    margin: 100px 0;
+    width: 1210px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.woodBusy_block{
+    width: 560px;
+    height: 560px;
+    height: max-content;
+    margin: auto 0 0 0;
+}
+
+.redisign{
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+    margin: 300px auto;
+    width: 1210px;
+}
+
+.redisign_image{
+    width: 460px;
+    height: 460px;
+    background-color: #C4C4C4;
+}
+
+.redisign_leftside{
+    width: 700px;
+    height: 460px;
+    text-align: left;
+    
+}
+
+.redisign_leftside .string_2{
+    margin: 0;
+    text-align: left;
+    color: #57463A;
+}
+
+.redisign_leftside h2{
+    text-align: left;
+    margin-top: 0;
+}
+
+.redisign_leftside p{
+    text-align: left;
+    margin-top: 160px;
+    width: 80%;
+}
+
+.redisign_button{
+    width: 245px;
+    height: 60px;
+    background-color: #A1B29F;
+    color: #F6F6F6;
+    border: 0;
+    margin-top: 40px;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 380px;
+    background-color: #715B4B;
+}
+
+.footer-inner{
+    width: 1200px;
+    margin:auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-inner div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.footer-inner div a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-inner__link{
+    width: 114px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-inner__link a{
+    width: 52px;
+}
+
+.footer-inner__link a img{
+    width: 52px;
+}
+
+@media only screen and (orientation: portrait) and (min-device-width: 375px) and (max-device-width: 896px) and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .head_big_image{
+        width: inherit;
+        background: url("./images/masterImages/iphone11pro/bigheader.png");
+        justify-content: center;
+        display: flex;
+    }
+
+    .center_header_block{
+        width: inherit;
+        margin: auto;
+    }
+
+    .string_2{
+        margin-top: 30px;
+        font-size: 32px;
+        text-align: left;
+        width: inherit;
+    }
+
+    .center_header_img{
+        width: 375px;
+        height: 264px;
+        margin: 100px auto 0 auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url("./images/aboutUsImages/adaptive_11pro/big_header.svg");
+    }
+
+    .center_header_block .string_2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .production-information{
+        flex-direction: column;
+        width: inherit;
+    }
+
+    .production-information_block{
+        width: 80%;
+        text-align: left;
+        height: 100px;
+        margin: 20px auto 0;
+    }
+
+    .aboutFounder{
+        width: inherit;
+        flex-direction: column;
+        height: max-content;
+
+    }
+
+    .aboutFounder_image{
+        width: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .aboutFounder_rightside{
+        width: 80%;
+        height: max-content;
+        margin: 50px auto 0;
+    }
+
+    .filosofia{
+        width: 80%;
+    }
+
+    .filosofia .string_2{
+        width: 50%;
+    }
+
+    .sMIAboutUs{
+        width: 80%;
+    }
+
+    .sMIAboutUs_images{
+        width: inherit;
+    }
+
+    .sMIAboutUs_images img{
+        display: none;
+    }
+
+    #sMIAboutUs_images_1{
+        display: block;
+        margin: auto;
+        width: inherit;
+    }
+
+    .ourWorks{
+        width: 80%;
+    }
+
+    .ourWorks_String{
+        width: 100%;
+        gap: 10px;
+    }
+
+    .ourWorks_String td img{
+        width: 100%;
+    }
+
+    .ourWorks_String td {
+        width: 43%;
+        margin: 10px 8px;
+    }
+
+    .ourWorks_String td p{
+        width: inherit;
+        margin: auto;
+    }
+
+    .MK{
+        width: 80%;
+        margin: 50px auto;
+        height: max-content;
+    }
+
+    .MK_points{
+        margin: 100px auto;
+    }
+
+    .MK .string_2{
+        width: inherit;
+    }
+
+    .MK_points_block{
+        width: inherit;
+    }
+
+    .MK_points_block p{
+        width: 50%;
+        margin: auto;
+    }
+
+    .newLife{
+        width: inherit;
+    }
+
+    .newLifeBackground{
+        width: inherit;
+        text-align: center;
+        background: url("./images/masterImages/iphone11pro/woodbackground.png") no-repeat;
+    }  
+
+    .restavration{
+        width: 80%;
+        height: max-content;
+    }
+
+    .restavration .string_2{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .restavration_String{
+        width: 100%;
+        height: max-content;
+    }
+    
+    .restavration_block{
+        width: 45%;
+    }
+
+    .restavration_block img{
+        width: 100%;
+    }
+
+    .woodBusy{
+        width: 80%;
+    }
+
+    .woodBusy .string_2{
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .woodBusy_block{
+        width: 100%;
+    }
+
+    .woodBusy_String{
+        width: 100%;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .woodBusy_block img{
+        width: inherit;
+        height: inherit;
+    }
+
+    .redisign{
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+        height: max-content;
+    }
+
+    .redisign_leftside{
+        width: inherit;
+        height: max-content;
+        margin-bottom: 100px;
+    }
+
+    .redisign_leftside .string_2{
+        margin: 0;
+    }
+
+    .redisign_leftside p{
+        width: 100%;
+        height: max-content;
+    }
+
+    .redisign_image{
+        display: none;
+    }
+
+}
